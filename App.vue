@@ -1,15 +1,15 @@
 <template>
   <div>
-    <MyComponent />
+    <ProductList />
   </div>
 </template>
 
 <script>
-import MyComponent from './components/MyComponent.vue';
+import ProductList from './components/ProductList.vue';
 
 export default {
   name: 'App',
-  components: { MyComponent },
+  components: { ProductList },
   data() {
     return {
       name: 'aasdasd',
