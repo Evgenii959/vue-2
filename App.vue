@@ -1,20 +1,15 @@
 <template>
   <div>
-    <ProductList />
+    <InputRef />
   </div>
 </template>
 
 <script>
-import ProductList from './components/ProductList.vue';
+import InputRef from './components/InputRef.vue';
 
 export default {
   name: 'App',
-  components: { ProductList },
-  data() {
-    return {
-      name: 'aasdasd',
-    };
-  },
+  components: { InputRef },
 };
 </script>
 
