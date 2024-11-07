@@ -1,15 +1,15 @@
 <template>
   <div>
-    <InputRef />
+    <MainModal />
   </div>
 </template>
 
 <script>
-import InputRef from './components/InputRef.vue';
+import MainModal from './components/MainModal.vue';
 
 export default {
   name: 'App',
-  components: { InputRef },
+  components: { MainModal },
 };
 </script>
 
